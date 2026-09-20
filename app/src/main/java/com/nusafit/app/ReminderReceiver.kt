@@ -1,0 +1,3 @@
+package com.nusafit.app
+import android.app.*;import android.content.*;import androidx.core.app.NotificationCompat
+class ReminderReceiver:BroadcastReceiver(){override fun onReceive(c:Context,i:Intent){val nm=c.getSystemService(NotificationManager::class.java);nm.createNotificationChannel(NotificationChannel("reminders","NusaFit Jadwal",NotificationManager.IMPORTANCE_HIGH));nm.notify(i.getIntExtra("id",1),NotificationCompat.Builder(c,"reminders").setSmallIcon(android.R.drawable.ic_lock_idle_alarm).setContentTitle("NusaFit • Waktunya olahraga").setContentText(i.getStringExtra("name")?:"Jadwal olahraga").setAutoCancel(true).build())}}

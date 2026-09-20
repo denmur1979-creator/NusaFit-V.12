@@ -1,0 +1,11 @@
+<resources>
+    <color name="nf_primary">#0B5CAB</color>
+    <color name="nf_primary_dark">#08477F</color>
+    <color name="nf_green">#16835B</color>
+    <color name="nf_bg">#F4F7FB</color>
+    <color name="nf_surface">#FFFFFF</color>
+    <color name="nf_outline">#D5DDE8</color>
+    <color name="nf_text_primary">#152235</color>
+    <color name="nf_text_secondary">#687588</color>
+    <color name="nusafit_icon_background">#F1F2F4</color>
+</resources>
